@@ -16,8 +16,8 @@ export const StyledNavbar = styled.nav`
   left: 0;
   width: 100%;
   padding: 10px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
   align-items: center;
   color: ${italianGreen};
   background-color: ${italianWhite};
@@ -27,11 +27,6 @@ export const StyledNavbar = styled.nav`
   //border-bottom-right-radius: 50px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   z-index: +1000;
-  @media (max-width: 768px) {
-    /* Adjust styling for smaller screens */
-    flex-direction: column;
-    align-items: center;
-  }
 `;
 
 export const StyledLogo = styled.div`
@@ -49,45 +44,54 @@ export const StyledName = styled.h1`
 
 export const StyledTitle = styled.div`
   display: flex;
-  gap: 20px;
-  font-size: 18px;
+  gap: 15px;
+
   justify-content: space-between;
   align-items: center;
 `;
 
 export const StyledPageLink = styled.a`
   color: ${italianGreen};
-  padding: 10px;
+  padding: 5px;
+  gap: 10px;
   text-decoration: none;
-  font-size: 16px;
-  :hover ;
 `;
 
 // index components
 
 export const StyledContainer = styled.div`
   min-height: 100vh;
-  background: linear-gradient(
-    ${transparentGreen},
-    ${italianWhite} 40%,
-    ${transparentRed}
-  );
   display: flex;
   flex-direction: column;
 `;
 
 export const StyledMain = styled.main`
-  width: 100%;
   margin: 0 auto;
+  width: 100%;
   border-bottom: 2px solid #fffcfc;
   border-top: 2px solid #ddd;
 `;
 
 export const StyledImage = styled.div`
   padding-top: 50px;
+  position: sticky;
+  align-items: baseline;
   img {
     width: 100%;
     height: auto;
+  }
+`;
+
+export const StyledPage = styled.div`
+  color: black;
+  padding-top: 150px;
+  margin: 50px;
+
+  justify-content: center;
+  gap: 20px;
+
+  h1 {
+    color: ${italianGreen};
   }
 `;
 
@@ -98,30 +102,46 @@ export const StyledPages = styled.div`
 
 export const StyledIntroSociety = styled.section`
   padding: 15px;
-  font-size: 18px;
+
   background-color: ${transparentGreen};
   color: black;
   text-align: center;
   display: flex;
   align-items: center;
-  p {
-    flex: 1;
-    padding: 0 25px;
-    position: relative;
+  @media (min-width: 768px) {
+    p {
+      flex: 1;
+      padding: 0 25px;
+      position: relative;
+    }
+    p:first-child {
+      border-right: 2px solid ${italianGreen};
+    }
   }
-  p:first-child {
-    border-right: 2px solid ${italianGreen};
+  @media (max-width: 768px) {
+    /* Adjust styling for smaller screens */
+    flex-direction: column;
+    align-items: center;
+    p {
+      flex: 1;
+      padding: 0px 10px;
+      position: relative;
+    }
+    p:first-child {
+      padding-bottom: 30px;
+      border-bottom: 2px solid ${italianGreen};
+      border-right: none;
+    }
   }
 `;
 
 export const StyledIntro = styled.section`
   padding: 20px;
   color: black;
-  font-size: 17px;
-  //font-weight: bold;
+
   font-style: italic;
   font-family: "Mali";
-  text-align: end;
+  text-align: center;
   background-color: ${transparentWhite};
 `;
 
@@ -129,29 +149,69 @@ export const StyledSection = styled.section`
   color: black;
   text-align: center;
   padding: 15px;
-  font-size: 17px;
+  margin-top: 10px;
+`;
+
+export const StyledIcon = styled.div`
+  color: ${italianGreen};
+  padding: 5px;
+  width: 5px;
+  height: auto;
 `;
 
 // Footer component
 export const StyledFooter = styled.footer`
-  padding: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-width: 40%;
+  font-size: 0.8rem;
+  border-top: 2px solid ${transparentGreen};
   text-align: center;
-  color: ${italianRed};
+  color: ${italianGreen};
   display: flex;
   justify-content: space-between;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 `;
 
-export const StyledAdvertisement = styled.section`
-  margin-bottom: 0px;
+export const ContactSection = styled.section`
   padding: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 50px;
-
+  background-color: ${transparentGreen};
   color: black;
-  border: 4px solid ${italianGreen};
-  box-shadow: 2vb;
-  text-align: justify;
+  text-align: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+
+  button {
+    background-color: ${italianGreen};
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 1.2rem;
+    font-family: "Mali";
+  }
+
+  button:hover {
+    background-color: #007f33; /* Darker green on hover */
+  }
+`;
+
+export const TextBox = styled.div`
+  margin: 0px 100px 0px 100px;
+  background-color: ${transparentGreen};
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+  p {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: black;
+  }
 `;

@@ -9,10 +9,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="pictures/logo_SIS.png" type="image/x-icon" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-        />
       </Head>
       <StyledContainer>
         <Navbar />
