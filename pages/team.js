@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { StyledPage } from "../components/StyledComponents";
+import Image from "next/image";
 
 const Team = () => {
   const teamMembers = [
@@ -90,7 +91,13 @@ export default Team;
 const TeamMember = ({ name, role, imageUrl }) => {
   return (
     <MemberContainer>
-      <img src={imageUrl} alt={name} />
+      <Image
+        src={imageUrl}
+        width="200"
+        height="200"
+        alt={name}
+        border-radius="50%"
+      />
       <h3>{name}</h3>
       <p>{role}</p>
     </MemberContainer>
@@ -103,7 +110,7 @@ const MemberContainer = styled.div`
   margin-bottom: 20px;
   img {
     border-radius: 50%;
-    max-width: 100px;
+    max-width: 150px;
     height: auto;
   }
   p {

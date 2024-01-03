@@ -32,6 +32,7 @@ import {
   UserGroupIcon,
   ChatBubbleLeftRightIcon,
 } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 const italianGreen = "#009246";
 const italianWhite = "#ffffff";
@@ -83,7 +84,12 @@ const Home = () => {
   return (
     <>
       <StyledImage>
-        <img src="pictures/zurich.jpg" alt="Zurich" />
+        <Image
+          src="/pictures/zurich.jpg"
+          width="2000"
+          height="2000"
+          alt="Zurich"
+        />
         <StyledIntro>
           <p>
             Sei un giovane italiano che studia o vive a Zurigo? Stai ancora
@@ -269,8 +275,10 @@ const Home = () => {
 
       <StyledSection2>
         <h2>Siamo Membri di:</h2>
-        <img
-          src="pictures/unitedItalianSocSmall.jpg"
+        <Image
+          src="/pictures/unitedItalianSocSmall.jpg"
+          width="250"
+          height="200"
           alt="United Italian Society"
         />
       </StyledSection2>

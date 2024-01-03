@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { transparentGreen } from "./StyledComponents";
+import Image from "next/image";
 
 const Post = ({ title, description, imageUrl, link }) => {
   return (
     <PostContainer>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <img src={imageUrl} alt={title} />
+        <Image src={imageUrl} width="200" height="300" alt={title} />
         <div>
           <h3>{title}</h3>
           <p>{description}</p>

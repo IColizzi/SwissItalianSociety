@@ -10,6 +10,7 @@ import styled from "styled-components";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -60,7 +61,12 @@ const Navbar = () => {
         <Link href="/">
           <StyledTitle>
             <StyledLogo>
-              <img src="pictures/logo_SIS.png" alt="Logo" />
+              <Image
+                src="/pictures/logo_SIS.png"
+                width="70"
+                height="70"
+                alt="Logo"
+              />
             </StyledLogo>
             <StyledName>Swiss Italian Society</StyledName>
           </StyledTitle>
