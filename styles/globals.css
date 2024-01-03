@@ -47,12 +47,12 @@ a {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   html {
-    color-scheme: dark;
+    color-scheme: white;
   }
   body {
-    color: white;
-    background: #ffffff;
+    color: black;
+    background: white;
   }
 }
