@@ -1,12 +1,13 @@
 // components/StyledFooter.js
 import styled from "styled-components";
+import Link from "next/link";
 
-const italianGreen = "#009246";
-const italianWhite = "#ffffff";
-const italianRed = "#ce2b37";
-const transparentRed = "rgba(206, 43, 55, 0.4)";
-const transparentGreen = "rgba(69, 172, 21, 0.514)";
-const transparentWhite = "rgba(236, 240, 235, 0.384)";
+export const italianGreen = "#009246";
+export const italianWhite = "#ffffff";
+export const italianRed = "#ce2b37";
+export const transparentRed = "rgba(206, 43, 55, 0.4)";
+export const transparentGreen = "rgba(69, 172, 21, 0.514)";
+export const transparentWhite = "rgba(236, 240, 235, 0.384)";
 
 // Navbar component
 
@@ -50,13 +51,6 @@ export const StyledTitle = styled.div`
   align-items: center;
 `;
 
-export const StyledPageLink = styled.a`
-  color: ${italianGreen};
-  padding: 5px;
-  gap: 10px;
-  text-decoration: none;
-`;
-
 // index components
 
 export const StyledContainer = styled.div`
@@ -84,14 +78,18 @@ export const StyledImage = styled.div`
 
 export const StyledPage = styled.div`
   color: black;
-  padding-top: 150px;
+  padding-top: 110px;
   margin: 50px;
-
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
   justify-content: center;
   gap: 20px;
+  text-align: justify;
 
   h1 {
     color: ${italianGreen};
+    border-bottom: 4px solid ${italianGreen};
   }
 `;
 
@@ -150,6 +148,15 @@ export const StyledSection = styled.section`
   text-align: center;
   padding: 15px;
   margin-top: 10px;
+  border-top: 5px solid ${italianGreen};
+  border-bottom: 5px solid ${italianGreen};
+`;
+
+export const StyledSection2 = styled.section`
+  color: black;
+  text-align: center;
+  padding: 15px;
+  margin-top: 10px;
 `;
 
 export const StyledIcon = styled.div`
@@ -182,7 +189,7 @@ export const ContactSection = styled.section`
   color: black;
   text-align: center;
   align-items: center;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-size: 0.8rem;
 

@@ -2,9 +2,9 @@ import {
   StyledNavbar,
   StyledLogo,
   StyledPages,
-  StyledPageLink,
   StyledName,
   StyledTitle,
+  italianGreen,
 } from "./StyledComponents";
 import styled from "styled-components";
 import { Bars3Icon } from "@heroicons/react/24/outline";
@@ -17,7 +17,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 1200);
+      setIsSmallScreen(window.innerWidth <= 1500);
       setMenuOpen(false);
     };
 
@@ -74,6 +74,7 @@ const Navbar = () => {
           <StyledPages>
             <StyledPageLink href="/eventi">Eventi</StyledPageLink>
             <StyledPageLink href="/risorse">Risorse</StyledPageLink>
+            <StyledPageLink href="/studio">Università</StyledPageLink>
             <StyledPageLink href="/team">Team</StyledPageLink>
             <StyledPageLink href="/contacts">Contatti</StyledPageLink>
           </StyledPages>
@@ -91,6 +92,7 @@ const MobileMenu = ({ menuRef }) => {
     <StyledMobileMenu ref={menuRef}>
       <StyledPageLink href="/eventi">Eventi</StyledPageLink>
       <StyledPageLink href="/risorse">Risorse</StyledPageLink>
+      <StyledPageLink href="/studio">Università</StyledPageLink>
       <StyledPageLink href="/team">Team</StyledPageLink>
       <StyledPageLink href="/contacts">Contatti</StyledPageLink>
     </StyledMobileMenu>
@@ -116,4 +118,11 @@ const StyledMobileMenu = styled.div`
     display: block;
     padding: 8px;
   }
+`;
+
+const StyledPageLink = styled.a`
+  color: ${italianGreen};
+  padding: 5px;
+  gap: 10px;
+  text-decoration: none;
 `;

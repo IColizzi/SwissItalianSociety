@@ -39,6 +39,10 @@ const Team = () => {
       name: "Andrea Nappi",
       imageUrl: "/pictures/members/Andrea.jpeg",
     },
+    {
+      name: "Francesco Manzionna",
+      imageUrl: "/pictures/members/Francesco_manzionnna.jpg",
+    },
   ];
 
   const teamMembersComunicazione = [
@@ -49,6 +53,10 @@ const Team = () => {
     {
       name: "Isabella Colizzi",
       imageUrl: "/pictures/members/isabella.jpg",
+    },
+    {
+      name: "Elisa Messina",
+      imageUrl: "/pictures/members/Elisa_messina2.jpg",
     },
   ];
 

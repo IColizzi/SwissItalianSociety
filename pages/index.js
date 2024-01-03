@@ -9,6 +9,7 @@ import {
   StyledName,
   StyledTitle,
   StyledSection,
+  StyledSection2,
   StyledIntro,
   StyledIntroSociety,
   StyledAdvertisement,
@@ -266,10 +267,13 @@ const Home = () => {
         )}
       </StyledSection>
 
-      <StyledSection>
+      <StyledSection2>
         <h2>Siamo Membri di:</h2>
-        <img src="pictures/unitedItalianSoc.jpg" alt="United Italian Society" />
-      </StyledSection>
+        <img
+          src="pictures/unitedItalianSocSmall.jpg"
+          alt="United Italian Society"
+        />
+      </StyledSection2>
 
       <ContactSection>
         <p>

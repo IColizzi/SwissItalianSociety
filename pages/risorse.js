@@ -1,24 +1,28 @@
-// pages/risorse.js
 import React from "react";
-import { StyledMain } from "../components/StyledComponents";
+import Post from "../components/Post";
+import { posts } from "./risorseData";
+import { StyledPage } from "../components/StyledComponents";
 import styled from "styled-components";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-
-const italianGreen = "#009246";
-const italianWhite = "#ffffff";
-const italianRed = "#ce2b37";
 
 const Risorse = () => {
   return (
-    <>
-      <Navbar />
-      <StyledMain>
-        <p>hi</p>
-      </StyledMain>
-      <Footer />
-    </>
+    <StyledPage>
+      <h1>Risorse</h1>
+      <PostsPage>
+        {posts.map((post, index) => (
+          <Post key={index} {...post} />
+        ))}
+      </PostsPage>
+    </StyledPage>
   );
 };
 
 export default Risorse;
+
+const PostsPage = styled.div`
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+`;
