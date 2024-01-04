@@ -1,4 +1,3 @@
-import RisorseLayout from "./dd_RisorseLayout";
 import { StyledPage } from "../../components/StyledComponents";
 import styled from "styled-components";
 import Link from "next/link";
