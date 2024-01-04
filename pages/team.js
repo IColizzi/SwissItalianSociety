@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { StyledPage } from "../components/StyledComponents";
+
 import Image from "next/image";
 
 const Team = () => {
@@ -62,7 +62,7 @@ const Team = () => {
   ];
 
   return (
-    <StyledPage>
+    <>
       <h1>Il Team</h1>
       <h2>Consiglio Direttivo</h2>
       <TeamContainer>
@@ -82,7 +82,7 @@ const Team = () => {
           <TeamMember key={index} {...member} />
         ))}
       </TeamContainer>
-    </StyledPage>
+    </>
   );
 };
 

@@ -67,7 +67,8 @@ export const StyledMain = styled.main`
 `;
 
 export const StyledImage = styled.div`
-  padding-top: 50px;
+  padding-top: 0px;
+  padding-bottom: 10px;
   position: sticky;
   align-items: baseline;
   img {

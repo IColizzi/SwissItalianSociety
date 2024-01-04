@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { StyledPage } from "../components/StyledComponents";
+
 import styled from "styled-components";
 
 import {
@@ -10,7 +10,7 @@ import {
 
 const Contacts = () => {
   return (
-    <StyledPage>
+    <>
       <h1>Contatti</h1>
       <p>
         Seguici su Instagram e unisciti alla nostra community su WhatsApp per
@@ -64,7 +64,7 @@ const Contacts = () => {
           </Link>
         </Element>
       </IconTextList>
-    </StyledPage>
+    </>
   );
 };
 

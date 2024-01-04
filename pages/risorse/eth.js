@@ -1,11 +1,7 @@
-import { StyledPage } from "../../components/StyledComponents";
-
 const Eth = () => {
   return (
     <>
-      <StyledPage>
-        <h1>ETH</h1>
-      </StyledPage>
+      <h1>ETH</h1>
     </>
   );
 };

@@ -84,12 +84,12 @@ const Home = () => {
   return (
     <>
       <StyledImage>
-        <Image
+        {/*<Image
           src="/pictures/zurich.jpg"
           width="2000"
           height="2000"
           alt="Zurich"
-        />
+  />*/}
         <StyledIntro>
           <p>
             Sei un giovane italiano che studia o vive a Zurigo? Stai ancora

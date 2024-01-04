@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  StyledPage,
-  transparentGreen,
-  italianGreen,
-} from "../components/StyledComponents";
+import { transparentGreen, italianGreen } from "../components/StyledComponents";
 import styled from "styled-components";
 import Post from "../components/Post";
 import { uni } from "../components/risorseData";
@@ -11,7 +7,7 @@ import Link from "next/link";
 
 const Studio = () => {
   return (
-    <StyledPage>
+    <>
       <h1>Studiare a Zurigo</h1>
       <h2>Informazioni specifiche sulla tua università</h2>
       <PostsPage>
@@ -53,7 +49,7 @@ const Studio = () => {
         free online consulatation fatte dagli studenti di legge dell&apos;usz:
         (https://en.vsuzh.ch/rechtsberatung)
       </p1>
-    </StyledPage>
+    </>
   );
 };
 
