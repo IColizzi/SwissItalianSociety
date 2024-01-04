@@ -1,4 +1,4 @@
-import RisorseLayout from "./_RisorseLayout";
+import RisorseLayout from "./dd_RisorseLayout";
 import { StyledPage } from "../../components/StyledComponents";
 
 const Uzh = () => {

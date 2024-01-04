@@ -1,4 +1,4 @@
-import RisorseLayout from "./_RisorseLayout";
+import RisorseLayout from "./dd_RisorseLayout";
 import { StyledPage } from "../../components/StyledComponents";
 
 const Alloggio = () => {
@@ -20,17 +20,18 @@ const Alloggio = () => {
         </p1>
         <h3>Come e dove cercare</h3>
         <p1>
-          La cosa migliore e’ cercare quando sei qui. Gli studenti vivono in
-          “WG” (Wohngemeinschaft) da 4 a 8 persone, a volte anche 12. Di solito
-          quando si libera un posto gli studenti fanno un “casting” e mettono un
-          offerta su wgzimmer.ch, di solito invitano i primi che scrivono.
-          Attento che di solito le offerte rimangono aperte solo per qualche
-          giorno perche’ si ricevono piu’ di 100 richieste. Poi questo casting
-          va molto a fortuna… La cosa migliore da fare e’ avere pronta una
-          piccola email in cui descrivi chi sei, da dove vieni, cosa studi e
-          cosa ti piace fare (+ scrivi che per te e’ importante avere una casa
-          pulita e ordinata). Se allegi una foto è ancora meglio. E appena vedi
-          un nuovo inserat manda l’email.
+          La cosa migliore e&apos; cercare quando sei qui. Gli studenti vivono
+          in “WG” (Wohngemeinschaft) da 4 a 8 persone, a volte anche 12. Di
+          solito quando si libera un posto gli studenti fanno un “casting” e
+          mettono un offerta su wgzimmer.ch, di solito invitano i primi che
+          scrivono. Attento che di solito le offerte rimangono aperte solo per
+          qualche giorno perche&apos; si ricevono piu&apos; di 100 richieste.
+          Poi questo casting va molto a fortuna… La cosa migliore da fare
+          e&apos; avere pronta una piccola email in cui descrivi chi sei, da
+          dove vieni, cosa studi e cosa ti piace fare (+ scrivi che per te
+          e&apos; importante avere una casa pulita e ordinata). Se allegi una
+          foto è ancora meglio. E appena vedi un nuovo inserat manda
+          l&apos;email.
           <br />
           <br /> Questi sono alcuni siti dove cercare:
           <br /> - https://www.wgzimmer.ch/home.html
@@ -43,12 +44,12 @@ const Alloggio = () => {
           Dottorato! Oltre a questo, per la maggioranza delle stanze sono
           applicati ulteriori limiti di età (max 28 anni).
           <br />
-          <br /> Se sei un po' disperato puoi provare a scrivere direttamente a
-          woko, a volte succede che trovino una stanza libera. Ci sono anche
-          alcune stanze al campus Honggerberg
+          <br /> Se sei un po&apos; disperato puoi provare a scrivere
+          direttamente a woko, a volte succede che trovino una stanza libera. Ci
+          sono anche alcune stanze al campus Honggerberg
           (https://www.livingscience.ch/living-and-studying-zurich/?L=1 e
-          https://studentvillage.ch/en/)… e’ quasi impossibile trovare un posto
-          libero, ma tentar non nuoce!
+          https://studentvillage.ch/en/)… e&apos; quasi impossibile trovare un
+          posto libero, ma tentar non nuoce!
           <br /> E se sei proprio disperato puoi trovare un appartamento per
           qualche mesi qui (https://citypop.com/) e poi cambiare!
         </p1>

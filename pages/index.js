@@ -101,8 +101,8 @@ const Home = () => {
 
       <StyledIntroSociety>
         <p>
-          Swiss Italian Society è l'associazione che collega giovani italiani
-          che vivono e studiano a Zurigo.{" "}
+          Swiss Italian Society è l&apos;associazione che collega giovani
+          italiani che vivono e studiano a Zurigo.{" "}
         </p>
 
         <p>
@@ -123,7 +123,7 @@ const Home = () => {
               Il nostro obiettivo è quello di creare una comunità di giovani
               studenti italiani già iscritti o desiderosi di iniziare il proprio
               percorso universitario a Zurigo (ETH e UZH), fornendo il supporto
-              necessario per faciltare il trasferimento e l’integrazione.
+              necessario per faciltare il trasferimento e l&apos;integrazione.
             </p>
           </StyledText>
         </StyledSectionBox>
@@ -136,10 +136,10 @@ const Home = () => {
             <h2>La nostra Visione</h2>
             <p>
               La nostra visione è quella di creare un flusso bidirezionale di
-              idee ed opportunità che arricchisca sia la Svizzera che l'Italia,
-              con lo scopo di portare alla luce i sogni e le esigenze di una
-              generazione in costante moto ma fortemente legata al proprio
-              paese.
+              idee ed opportunità che arricchisca sia la Svizzera che
+              l&apos;Italia, con lo scopo di portare alla luce i sogni e le
+              esigenze di una generazione in costante moto ma fortemente legata
+              al proprio paese.
             </p>{" "}
           </StyledText>
         </StyledSectionBox>
@@ -161,8 +161,8 @@ const Home = () => {
                 <p>
                   Se stai per iniziare il tuo viaggio in Svizzera, ti guidiamo
                   passo dopo passo attraverso gli step essenziali per accedere
-                  in un'università del Canton Zurigo, immatricolarti e iniziare
-                  il tuo percorso accademico.{" "}
+                  in un&apos;università del Canton Zurigo, immatricolarti e
+                  iniziare il tuo percorso accademico.{" "}
                 </p>
               </TextBox>
             )}
@@ -236,8 +236,8 @@ const Home = () => {
               {" "}
               Se stai per iniziare il tuo viaggio in Svizzera, ti guidiamo passo
               dopo passo attraverso gli step essenziali per accedere in
-              un'università del Canton Zurigo, immatricolarti e iniziare il tuo
-              percorso accademico.{" "}
+              un&apos;università del Canton Zurigo, immatricolarti e iniziare il
+              tuo percorso accademico.{" "}
             </p>
           </TextBox>
         )}

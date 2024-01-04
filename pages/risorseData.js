@@ -1,7 +1,8 @@
 export const posts = [
   {
-    title: "Burocrazia all'ingresso",
-    description: "Tutto cio' che devi sapere prima di arrivare in svizzera",
+    title: "Burocrazia all&apos;ingresso",
+    description:
+      "Tutto cio&apos; che devi sapere prima di arrivare in svizzera",
     imageUrl: "/pictures/risorse/burocracy.jpg",
     link: "risorse/burocrazia",
   },
@@ -14,7 +15,7 @@ export const posts = [
   },
   {
     title: "Alloggio",
-    description: "Trovare casa a Zurigo non e' una cosa semplice...",
+    description: "Trovare casa a Zurigo non e&apos; una cosa semplice...",
     imageUrl: "/pictures/risorse/alloggio.jpg",
     link: "risorse/alloggio",
   },
@@ -26,13 +27,13 @@ export const posts = [
   },
   {
     title: "Trasporti",
-    description: "Scoprirai che la macchina non ti servira'",
+    description: "Scoprirai che la macchina non ti servira&apos;",
     imageUrl: "/pictures/risorse/trasporti.jpg",
     link: "risorse/trasporti",
   },
   {
     title: "Tempo Libero",
-    description: "Perche' anche in svizzera ci si puo' divertire :)",
+    description: "Perchè anche in svizzera ci si puo&apos; divertire :)",
     imageUrl: "/pictures/risorse/freetime.jpg",
     link: "risorse/freetime",
   },

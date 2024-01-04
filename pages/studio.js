@@ -50,7 +50,7 @@ const Studio = () => {
         Qui trovi tutto cio’ di cui hai bisgno, dal Psychological Counselling al
         Student Helpdesk per problemi scolastici e non:
         (https://help.vseth.ethz.ch/) se hai bisgno di aiuto legale, ci sono
-        free online consulatation fatte dagli studenti di legge dell’usz:
+        free online consulatation fatte dagli studenti di legge dell&apos;usz:
         (https://en.vsuzh.ch/rechtsberatung)
       </p1>
     </StyledPage>
