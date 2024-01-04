@@ -6,7 +6,7 @@ const Sanita = () => {
   return (
     <>
       <StyledPage>
-        <h1>Sanita'</h1>
+        <h1>Sanita&apos;</h1>
         <h3>Devo avere una assicurazione sanitaria? </h3>
         <p1>
           Si e no. Tutte le persone in svizzera devono avere una assicurazione
