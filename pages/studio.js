@@ -6,7 +6,7 @@ import {
 } from "../components/StyledComponents";
 import styled from "styled-components";
 import Post from "../components/Post";
-import { uni } from "./risorseData";
+import { uni } from "../components/risorseData";
 import Link from "next/link";
 
 const Studio = () => {

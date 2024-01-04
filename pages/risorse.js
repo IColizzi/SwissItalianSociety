@@ -1,6 +1,6 @@
 import React from "react";
 import Post from "../components/Post";
-import { posts } from "./risorseData";
+import { posts } from "../components/risorseData";
 import { StyledPage } from "../components/StyledComponents";
 import styled from "styled-components";
 
