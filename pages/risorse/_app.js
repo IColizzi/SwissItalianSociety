@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar"; // Import your Navbar component
 import Footer from "../components/Footer"; // Import your Footer component
 import { StyledContainer, StyledMain } from "../components/StyledComponents";
+import { StyledPage } from "../../components/StyledComponents";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -13,7 +14,9 @@ function MyApp({ Component, pageProps }) {
       <StyledContainer>
         <Navbar />
         <StyledMain>
-          <Component {...pageProps} />
+          <StyledPage>
+            <Component {...pageProps} />
+          </StyledPage>
         </StyledMain>
         <Footer />
       </StyledContainer>
